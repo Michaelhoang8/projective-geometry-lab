@@ -1,5 +1,7 @@
 # Projective geometry lab
 
+**[View the report in your browser](https://Michaelhoang8.github.io/projective-geometry-lab/)**
+
 Normalized DLT homography estimation and bounded deterministic RANSAC, implemented using NumPy SVD as the numerical primitive. Four synthetic correspondence cases preserve input points, fitted matrices, consensus masks, sampled trials, training errors, held-out errors and repeated timing measurements.
 
 [Technical report](docs/report.html) · [Comparison animation](docs/media/fit-comparison.mp4) · [Algorithms](docs/algorithms.md) · [Methodology](docs/methodology.md) · [Findings](docs/findings.md) · [Screenshots](docs/screenshots/README.md) · [Report recording](docs/recordings/README.md)
