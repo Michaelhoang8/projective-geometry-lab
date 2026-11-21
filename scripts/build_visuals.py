@@ -54,7 +54,11 @@ def read_rows(path):
 def save(fig, name):
     fig.tight_layout(pad=1.3)
     for suffix in ["png", "svg"]:
-        fig.savefig(FIG / f"{name}.{suffix}", bbox_inches="tight")
+        destination = FIG / f"{name}.{suffix}"
+        fig.savefig(destination, bbox_inches="tight")
+        if suffix == "svg":
+            # Preserve exact artifact hashes across LF-normalized Git checkouts.
+            destination.write_bytes(destination.read_bytes().replace(b"\r\n", b"\n"))
     plt.close(fig)
 
 
