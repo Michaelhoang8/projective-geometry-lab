@@ -1,0 +1,19 @@
+{
+  "duration_seconds": 8,
+  "frames": 240,
+  "fps": 30,
+  "width": 1200,
+  "height": 660,
+  "audio": false,
+  "policy": "Four two-second cosine crossfades between known target and each fixed fitted warp; not live estimation or an iteration trace",
+  "input_sha256": {
+    "docs/images/reference.png": "3009c882a361604181db22d86adcea6a29c2049660f07509cfb1f1ba94e347d2",
+    "docs/images/all_point_dlt.png": "107735c49da629d0284b7461f3f6ae433542b7c9f2ef81a615a0e27597aa0f8a",
+    "docs/images/ransac.png": "950c06195f7296c1029333a92c4ee50548638e4a8d13cb6422e2dee24081bfd5",
+    "results/published/summary.csv": "f0ca8c1a3cb1132b6b865662a16c31bf626f65110bbd9cd4157255b097f58b95"
+  },
+  "output_sha256": "e237b4419432881ef3de5c20e2753b8fa3403a42d11e7ca0ebc8dd69ee5735db",
+  "renderer_sha256_lf": "e0b0c2559d9fe74f204b122b59cb3dca8ef7f1ddd286e8e33ec822dfd9163c99",
+  "pillow": "13.0.0",
+  "ffmpeg": "ffmpeg version 2024-01-04-git-33698ef891-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers"
+}

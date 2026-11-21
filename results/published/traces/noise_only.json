@@ -1,0 +1,327 @@
+{
+  "iterations": [
+    {
+      "trial": 1,
+      "sample": [
+        38,
+        46,
+        53,
+        66
+      ],
+      "candidate_inliers": 99,
+      "candidate_clipped_squared_error": 88.66931894705131,
+      "skipped": false,
+      "improved": true,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 2,
+      "sample": [
+        22,
+        37,
+        90,
+        98
+      ],
+      "candidate_inliers": 60,
+      "candidate_clipped_squared_error": 374.56893947673063,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 3,
+      "sample": [
+        35,
+        69,
+        84,
+        90
+      ],
+      "candidate_inliers": 9,
+      "candidate_clipped_squared_error": 583.4141344107247,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 4,
+      "sample": [
+        3,
+        14,
+        31,
+        49
+      ],
+      "candidate_inliers": 6,
+      "candidate_clipped_squared_error": 591.4861495742405,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 5,
+      "sample": [
+        32,
+        53,
+        64,
+        95
+      ],
+      "candidate_inliers": 58,
+      "candidate_clipped_squared_error": 388.15607455538026,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 6,
+      "sample": [
+        40,
+        81,
+        87,
+        92
+      ],
+      "candidate_inliers": 65,
+      "candidate_clipped_squared_error": 330.67953171853037,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 7,
+      "sample": [
+        7,
+        17,
+        51,
+        70
+      ],
+      "candidate_inliers": 87,
+      "candidate_clipped_squared_error": 245.28039958934053,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 8,
+      "sample": [
+        17,
+        19,
+        25,
+        90
+      ],
+      "candidate_inliers": 13,
+      "candidate_clipped_squared_error": 570.7645085957021,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 9,
+      "sample": [
+        26,
+        68,
+        71,
+        87
+      ],
+      "candidate_inliers": 58,
+      "candidate_clipped_squared_error": 399.044073629022,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 10,
+      "sample": [
+        15,
+        42,
+        69,
+        91
+      ],
+      "candidate_inliers": 13,
+      "candidate_clipped_squared_error": 576.5937094160582,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 11,
+      "sample": [
+        8,
+        39,
+        52,
+        81
+      ],
+      "candidate_inliers": 65,
+      "candidate_clipped_squared_error": 362.7043110422183,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 12,
+      "sample": [
+        10,
+        60,
+        64,
+        81
+      ],
+      "candidate_inliers": 51,
+      "candidate_clipped_squared_error": 395.0112292068928,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 13,
+      "sample": [
+        18,
+        52,
+        76,
+        87
+      ],
+      "candidate_inliers": 97,
+      "candidate_clipped_squared_error": 183.11295778003154,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 14,
+      "sample": [
+        2,
+        43,
+        55,
+        64
+      ],
+      "candidate_inliers": 87,
+      "candidate_clipped_squared_error": 252.86731352368844,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 15,
+      "sample": [
+        6,
+        47,
+        73,
+        96
+      ],
+      "candidate_inliers": 16,
+      "candidate_clipped_squared_error": 563.898202434116,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 16,
+      "sample": [
+        6,
+        45,
+        61,
+        94
+      ],
+      "candidate_inliers": 89,
+      "candidate_clipped_squared_error": 255.25370673021501,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 17,
+      "sample": [
+        0,
+        47,
+        74,
+        99
+      ],
+      "candidate_inliers": 62,
+      "candidate_clipped_squared_error": 331.21105790455374,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 18,
+      "sample": [
+        14,
+        30,
+        51,
+        71
+      ],
+      "candidate_inliers": 24,
+      "candidate_clipped_squared_error": 535.9318189119164,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 19,
+      "sample": [
+        27,
+        31,
+        46,
+        67
+      ],
+      "candidate_inliers": 4,
+      "candidate_clipped_squared_error": 600.0,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    },
+    {
+      "trial": 20,
+      "sample": [
+        7,
+        8,
+        34,
+        35
+      ],
+      "candidate_inliers": 52,
+      "candidate_clipped_squared_error": 458.70801531483875,
+      "skipped": false,
+      "improved": false,
+      "best_inliers": 99,
+      "adaptive_limit": 20
+    }
+  ],
+  "improvements": [
+    {
+      "trial": 1,
+      "inlier_count": 99,
+      "matrix": [
+        [
+          0.018890769599375756,
+          0.0027055069217114956,
+          0.5684987388044445
+        ],
+        [
+          -0.001215350047134773,
+          0.02113704612829458,
+          0.8219297794134672
+        ],
+        [
+          1.1517728647032864e-05,
+          -5.827381587420525e-06,
+          0.02069272301902219
+        ]
+      ]
+    }
+  ]
+}

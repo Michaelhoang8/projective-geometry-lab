@@ -1,0 +1,34 @@
+{
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2",
+  "pillow": "13.0.0",
+  "input_sha256": {
+    "results/published/inputs/outliers_35.json": "c9fed506acb59fa4144d18aec9c9aafa81a926633279a40baf1a5164ca741ff1",
+    "results/published/models/outliers_35__all_point_dlt.json": "9b9253df390bfc25ece984ea07cc832428baa0285069693b03f884e899a75c44",
+    "results/published/models/outliers_35__ransac.json": "fea3cf21479d25386fa7ccfd6afbc249fb099c0bfd77101dbca6ee27c5d47f07"
+  },
+  "output_sha256": {
+    "docs/figures/correspondences.png": "5aa501f2b3ac2ef6119f02fdf61c722920d61fa2444b37522487884b10a27dee",
+    "docs/figures/correspondences.svg": "11dcb052622f30dffd321ad9eef54c1c6c6dc7ad7256be2af0381746795c4460",
+    "docs/figures/held_out_errors.png": "e3714934f216e6ba880560b2ac9fcd8674229cdfb743146d289875df4cb767e9",
+    "docs/figures/held_out_errors.svg": "1261ed14bc7da7db1b927f3f913efcb7a71f026febd01c7393316f7b3857e1cc",
+    "docs/figures/trials_and_runtime.png": "0b448bad01866361123b685b42314a9e5763e1c6ce277e9f86fd7c49e861def4",
+    "docs/figures/trials_and_runtime.svg": "d8ee7dede374d0a9aa683773ca1332c681999e74b18bdbb834e13afc2f700dbd",
+    "docs/figures/warp_comparison.png": "18c763076e98c8547db04c57d58b104f20794b4a380c4d53149b7ac3bfb0218f",
+    "docs/figures/warp_comparison.svg": "12cbe0538fe961e87419876c2812a80ed9cc053ebf8ba5c98cafe9dffb5dc8f3",
+    "docs/images/all_point_dlt.png": "107735c49da629d0284b7461f3f6ae433542b7c9f2ef81a615a0e27597aa0f8a",
+    "docs/images/all_point_dlt_support.png": "5c31b259fa165db8017fbeb6e69e6c04a27402d5327ad3cb8a0a23a151a1969a",
+    "docs/images/ransac.png": "950c06195f7296c1029333a92c4ee50548638e4a8d13cb6422e2dee24081bfd5",
+    "docs/images/ransac_support.png": "6930bf2a4fdbd7abd715581e5bdbcbae03478e189f697391de9eb6956eefef6f",
+    "docs/images/reference.png": "3009c882a361604181db22d86adcea6a29c2049660f07509cfb1f1ba94e347d2",
+    "docs/images/reference_support.png": "9f426fdeee83b877c0fd65f72dea42e44ced61ffa510fa7d34f9a1c8f10c63d1",
+    "docs/images/source.png": "b9ebcafec28bafae94d5e6da222789d7c26653fca67a57832c6d2572f543230e"
+  },
+  "valid_destination_pixels": {
+    "reference": 135790,
+    "all_point_dlt": 160903,
+    "ransac": 135990
+  },
+  "source_policy": "Owned procedural plane graphic, no external image or feature detector. Correspondences are generated independently of the texture.",
+  "warp_policy": "Inverse pixel-center mapping with bilinear interpolation; zero/out-of-support regions rendered dark"
+}

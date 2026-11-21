@@ -1,0 +1,34 @@
+name: Validate projective geometry and evidence
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install pinned numerical dependencies
+        run: python -m pip install -e . -r requirements.txt
+      - name: Check estimators and preserved evidence
+        run: python -m unittest discover -s tests -v
+      - name: Measure a separate fresh experiment
+        run: python scripts/run_study.py --out outputs/ci-reproduction --repetitions 2
+      - name: Reconcile fresh measurements
+        env:
+          PROJECTIVE_RESULTS: outputs/ci-reproduction
+        run: python -m unittest discover -s tests -v
+      - name: Preserve CI evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: projective-ci-evidence
+          path: outputs/ci-reproduction

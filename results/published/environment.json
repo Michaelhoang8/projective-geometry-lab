@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-11-21T00:18:08.831869+00:00",
+  "completed_utc": "2026-11-21T00:18:09.398494+00:00",
+  "python": "3.13.17",
+  "numpy": "2.3.5",
+  "os": "Windows",
+  "architecture": "AMD64",
+  "repetitions": 5,
+  "timed_calls": 40,
+  "fixture_seed": 20261121,
+  "ransac_seed": 17,
+  "order_seed": 1307,
+  "source_sha256_lf": {
+    "src/projectivelab/core.py": "5e4b79e745f4bf0cfb7aee23ae7c26781938a66c5b1e74c8cb322575be9eed16",
+    "src/projectivelab/fixtures.py": "6b9c60401267b7962be73c43e5e3d42f21974c1ad14f130943ee73055c0b11f8",
+    "scripts/run_study.py": "be0fc13bea1546effea22198e1c32f64f8e7cdc833fe8f5f055cce420a221d81"
+  },
+  "source_hash_policy": "CRLF and CR normalized to LF before SHA-256; captured before measurements",
+  "precision": "float64 coordinates and NumPy SVD; algorithm and RANSAC implemented in this repository",
+  "timing_scope": "Complete in-memory estimation calls, including RANSAC sampling/refinement/trace; no input generation, image warp, plotting or disk I/O",
+  "provenance": "All correspondences, corruption labels, held-out points and images are procedural synthetic planar data"
+}
