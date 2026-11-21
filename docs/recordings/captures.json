@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-21T00:31:20.224033+00:00",
+  "captured_at_utc": "2026-11-21T01:06:19.779345+00:00",
   "source": "Actual browser rendering of docs/report.html",
   "recording": "Continuous automated browser review; not manual development footage",
   "viewport": {
@@ -7,8 +7,8 @@
     "height": 1000
   },
   "page_title": "Projective geometry lab | Homography study",
-  "report_sha256_normalized_text": "8a0e3ce9ef8766e539d8ee711f08dcc296efdcf0664744edd36d21618b72673a",
-  "video_sha256": "17a6e0685efab96b2d77fadc0cd6fd46e2353b86cbd8dbbd242963bafc4d88d8",
+  "report_sha256_normalized_text": "8787b177fe51d838d74d638b995fd09aa027e502ab1021e4b3d2b647ec0565e5",
+  "video_sha256": "f6bd0fa56f7bf1bbf1df07fea141baed8e4d108c393c0d81cc9d2db776f17c07",
   "captures": [
     {
       "path": "docs/screenshots/01_overview.png",
@@ -23,7 +23,7 @@
     {
       "path": "docs/screenshots/03_evaluation.png",
       "section": "evaluation",
-      "sha256": "688ca3275ead3f4f89d20f4e55532b454a586976f188db1271c2de5b995d76ae"
+      "sha256": "66964589329db5f563f0821306a8e81ff36f00e1a98bc0f9fe40eeb701b46e48"
     },
     {
       "path": "docs/screenshots/04_geometry.png",
@@ -33,7 +33,7 @@
     {
       "path": "docs/screenshots/05_comparison.png",
       "section": "comparison",
-      "sha256": "b85c214e437bf9701d8dc12742a27fc8c94ff42ed8122a4339ead8b8d5951a3b"
+      "sha256": "2b1119ce5c472e5ff1c486b456edbe881a6b8bce853ebd575e2b7338d151d813"
     },
     {
       "path": "docs/screenshots/06_validation.png",
